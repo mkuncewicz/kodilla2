@@ -1,8 +1,8 @@
 package com.crud.tasks.controller;
 
-import com.crud.tasks.domain.CreatedTrelloCard;
-import com.crud.tasks.domain.TrelloBoardDto;
-import com.crud.tasks.domain.TrelloCardDto;
+import com.crud.tasks.controller.domain.CreatedTrelloCard;
+import com.crud.tasks.controller.domain.TrelloBoardDto;
+import com.crud.tasks.controller.domain.TrelloCardDto;
 import com.crud.tasks.trello.client.TrelloClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
