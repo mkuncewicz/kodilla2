@@ -1,11 +1,10 @@
 package com.crud.tasks.trello.client;
 
 import com.crud.tasks.config.TrelloConfig;
-import com.crud.tasks.domain.CreatedTrelloCard;
-import com.crud.tasks.domain.TrelloBadges;
-import com.crud.tasks.domain.TrelloBoardDto;
-import com.crud.tasks.domain.TrelloCardDto;
-import org.assertj.core.api.Assert;
+import com.crud.tasks.controller.domain.CreatedTrelloCard;
+import com.crud.tasks.controller.domain.TrelloBadges;
+import com.crud.tasks.controller.domain.TrelloBoardDto;
+import com.crud.tasks.controller.domain.TrelloCardDto;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
